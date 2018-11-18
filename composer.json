@@ -1,0 +1,14 @@
+{
+    "name": "ec2-user/environment",
+    "type": "prject",
+    "require": {
+        "twig/twig": "^1.35",
+        "pecee/simple-router": "4.2.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Framework\\" : "framework/",
+            "App\\":"app/"
+        }
+    }
+}
